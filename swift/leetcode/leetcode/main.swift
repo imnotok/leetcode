@@ -9,7 +9,10 @@
 import Foundation
 
 //1// testTwoSum()
- testAddTwoNumbers()
+//2// testAddTwoNumbers()
+//3// testLengthOfLongestSubstring()
+//4// testFindMedianSortedArrays()
+testLongestPalindrome()
 
 
 

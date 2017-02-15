@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5020FFE21E4D9634000B6957 /* 3.Longest Substring Without Repeating Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5020FFE11E4D9634000B6957 /* 3.Longest Substring Without Repeating Characters.swift */; };
 		506048381E4C0FC900748D67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506048371E4C0FC900748D67 /* main.swift */; };
 		5060483F1E4C107900748D67 /* 1.Two Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060483E1E4C107900748D67 /* 1.Two Sum.swift */; };
 		506048411E4C11E200748D67 /* 2.Add Two Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506048401E4C11E200748D67 /* 2.Add Two Numbers.swift */; };
+		50E443931E51551600226CAE /* 4.Median of Two Sorted Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E443921E51551600226CAE /* 4.Median of Two Sorted Arrays.swift */; };
+		50E443951E5170F800226CAE /* 5.Longest Palindromic Substring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E443941E5170F800226CAE /* 5.Longest Palindromic Substring.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,10 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5020FFE11E4D9634000B6957 /* 3.Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "3.Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 		506048341E4C0FC900748D67 /* leetcode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode; sourceTree = BUILT_PRODUCTS_DIR; };
 		506048371E4C0FC900748D67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		5060483E1E4C107900748D67 /* 1.Two Sum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1.Two Sum.swift"; sourceTree = "<group>"; };
 		506048401E4C11E200748D67 /* 2.Add Two Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "2.Add Two Numbers.swift"; sourceTree = "<group>"; };
+		50E443921E51551600226CAE /* 4.Median of Two Sorted Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "4.Median of Two Sorted Arrays.swift"; sourceTree = "<group>"; };
+		50E443941E5170F800226CAE /* 5.Longest Palindromic Substring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "5.Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				506048371E4C0FC900748D67 /* main.swift */,
 				5060483E1E4C107900748D67 /* 1.Two Sum.swift */,
 				506048401E4C11E200748D67 /* 2.Add Two Numbers.swift */,
+				5020FFE11E4D9634000B6957 /* 3.Longest Substring Without Repeating Characters.swift */,
+				50E443921E51551600226CAE /* 4.Median of Two Sorted Arrays.swift */,
+				50E443941E5170F800226CAE /* 5.Longest Palindromic Substring.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -126,8 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E443931E51551600226CAE /* 4.Median of Two Sorted Arrays.swift in Sources */,
 				506048411E4C11E200748D67 /* 2.Add Two Numbers.swift in Sources */,
 				506048381E4C0FC900748D67 /* main.swift in Sources */,
+				5020FFE21E4D9634000B6957 /* 3.Longest Substring Without Repeating Characters.swift in Sources */,
+				50E443951E5170F800226CAE /* 5.Longest Palindromic Substring.swift in Sources */,
 				5060483F1E4C107900748D67 /* 1.Two Sum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +270,7 @@
 				5060483D1E4C0FC900748D67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
